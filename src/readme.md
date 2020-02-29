@@ -8,6 +8,15 @@
 ## window.onload
 加载完成后
 
+## 监听ajax加载事件
+```js
+$( document ).ajaxComplete(function(event, xhr, settings) {
+	if(settings.url.startsWith('/xxx.ajax')){
+		flushAll();
+	}
+});
+```        
+
 ##  添加css样式
 
 ```ts
