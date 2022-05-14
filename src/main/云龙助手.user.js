@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://xxx.aaa.com/*
-// @require      https://cdn.bootcss.com/jquery/3.3.1/jquery.js
+// @require      http://libs.baidu.com/jquery/1.9.1/jquery.min.js
 // @grant        unsafeWindow
 // ==/UserScript==
 
